@@ -7,7 +7,7 @@ const MoviesList = ({ movies }) => {
   const CreateLink = ({ id, poster_path, original_title }) => {
     const to = location.pathname === "/" ? `movies/${id}` : `${id}`;
     return (
-      <NavLink to={to} state={{ location }}>
+      <NavLink to={to} state={{ from: location }}>
         <MoviePoster path={poster_path} alt={original_title} />
       </NavLink>
     );
