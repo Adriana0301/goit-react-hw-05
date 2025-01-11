@@ -25,7 +25,7 @@ const MoviesPage = () => {
 
         if (movies.results.length === 0) {
           toast(
-            "Search something else. There is no movie with your this request here",
+            "Search something else. There is no movie with this request here",
             {
               icon: "⚠️",
               position: "bottom-center",
