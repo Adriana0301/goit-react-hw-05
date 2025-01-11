@@ -1,0 +1,12 @@
+.castList {
+  display: grid;
+  gap: 20px;
+  padding: 50px;
+}
+
+.castListItem {
+  display: flex;
+  height: 200px;
+  max-width: 200px;
+  gap: 10px;
+}

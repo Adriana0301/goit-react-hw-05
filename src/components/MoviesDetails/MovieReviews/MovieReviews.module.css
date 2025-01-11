@@ -1,0 +1,16 @@
+.reviewsListItem {
+  max-width: 1000px;
+  text-align: center;
+}
+
+.reviewsList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.author {
+  color: #535bf2;
+}

@@ -1,0 +1,14 @@
+.link {
+  color: #6b6c79;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.active {
+  color: #646cff;
+}

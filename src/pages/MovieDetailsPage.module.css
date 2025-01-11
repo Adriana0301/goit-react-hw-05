@@ -1,0 +1,30 @@
+s.sectionAbout {
+  display: flex;
+}
+
+.wrapperAbout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.containerLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.link {
+  color: #6b6c79;
+}
+
+.active {
+  color: #646cff;
+}
